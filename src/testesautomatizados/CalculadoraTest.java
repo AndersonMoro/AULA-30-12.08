@@ -15,7 +15,6 @@ public class CalculadoraTest {
 		// Verificação (assert)
 		Assert.assertEquals(42, soma);
 	}
-	
 	@Test
 	public void deveriaSomarUmNumeroPositivoComZero() {
 		Calculadora calc = new Calculadora();
@@ -36,3 +35,6 @@ public class CalculadoraTest {
 		int soma = calc.somar(-2, -3);
 		Assert.assertEquals(-5, soma);
 	}}
+
+	
+	
